@@ -102,7 +102,7 @@
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.4.x</version> <!-- Update to the latest stable version -->
+                <version>3.9.9</version> <!-- Update to the latest stable version -->
                 <configuration>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                     <webApp>
