@@ -19,7 +19,7 @@
     <properties>
         <jdk.version>1.8</jdk.version>
         <spring.version>5.1.2.RELEASE</spring.version>
-        <sonar.host.url>http://172.31.6.252:9000/</sonar.host.url>
+        <sonar.host.url>http:18.190.239.196:9000/</sonar.host.url>
         <sonar.token>sqa_629d87321c01f596ee79a2b6d50535a54c57dce3</sonar.token>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -85,13 +85,13 @@
         <repository>
             <id>nexus</id>
             <name>Landmark Technologies Releases Nexus Repository</name>
-            <url>http://3.143.5.38:8081/repository/tesla-releases/</url>
+            <url>http://3.15.6.123:8081/repository/tesla-releases/</url>
         </repository>
 
         <snapshotRepository>
             <id>nexus</id>
             <name>Landmark Technologies Snapshot Nexus Repository </name>
-            <url>http://3.143.5.38:8081/repository/tesla-snapshots/</url>
+            <url>http://3.15.6.123:8081/repository/tesla-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
